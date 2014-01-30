@@ -3,7 +3,7 @@
 OBJS = clock.o uart.o debug.o sdram.o dump.o term.o
 BINARY = main
 
-LDSCRIPT = stm32f429.ld
+LDSCRIPT = stm32f4-disco.ld
 
-include ../../Makefile.include
+include Makefile.include
 
